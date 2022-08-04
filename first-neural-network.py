@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 from my_answers import NeuralNetwork, iterations, learning_rate, hidden_nodes, output_nodes
 #%%
+import os
+os.chdir("/home/jhkim/src/vscode/machine-learning/first-neural-network")
+#%%
 data_path = 'Bike-Sharing-Dataset/hour.csv'
 rides = pd.read_csv(data_path)
 
